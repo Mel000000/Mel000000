@@ -6,6 +6,7 @@ I'm a self-taught developer who believes the best code ships itself. I build ful
 
 - 🔭 **Current project**: [Authentication User Dashboard](https://github.com/Mel000000/Authentication-User-Dashboard-App) — a secure auth system with email verification, CAPTCHA, and Google Maps integration
 - 🚀 **Recent work**: [weweb-cloudflare-ci](https://github.com/Mel000000/weweb-cloudflare-ci) — a CI/CD template that helps developers automate WeWeb deploys to Cloudflare Pages
+- 🧪 **Future project**:  End-to-end testing with Playwright
 - 🌱 **Learning**: Python • TypeScript • C++ • System Design
 - 💬 **Ask me about**: React • Node.js • CI/CD • why automation matters
 - 🎓 **Background**: German schooling in Thessaloniki, moving to Austria for university
@@ -14,7 +15,7 @@ I'm a self-taught developer who believes the best code ships itself. I build ful
 Check out my pinned repos below for my best work, including a full-stack auth app and a DevOps automation tool.
 
 ### 🤝 Let's connect
-I'm looking for a part-time Werkstudent role in Linz (or remote) starting late-2026. If you're hiring or just want to talk code, reach out!
+I'm looking for a part-time Werkstudent role in Linz starting late 2026 (remote possible). If you're hiring or just want to talk code, reach out!
 
 <a href="https://dev.to/Mel000000" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Mel000000" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/Melina Reisinger" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Melina Reisinger" height="30" width="40" /></a>

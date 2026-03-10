@@ -22,5 +22,18 @@ I'm looking for a part-time Werkstudent role in Linz starting mid-2025. If you'r
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
+  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=react" alt="React" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=express" alt="Express" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=git" alt="Git" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=githubactions" alt="GitHub Actions" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=cloudflare" alt="Cloudflare" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=py" alt="Python" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=html" alt="HTML5" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="40" height="40"/>
   <img src="https://skillicons.dev/icons?i=blender" alt="blender" width="40" height="40"/> 
+</p>
 

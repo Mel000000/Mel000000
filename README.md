@@ -10,10 +10,6 @@
 
 <br/>
 
-<div align="center">
-  <img src="./assets/generated/stats-card.svg" width="850" alt="Mission Telemetry"/>
-</div>
-
 <br/>
 
 <div align="center">
@@ -28,8 +24,6 @@
 
 <br/>
 
-<details>
-<summary><strong>More about me</strong></summary>
 
 <img align="right" width="300" src="https://media.tenor.com/YSzBJZA8P0cAAAAi/cat-black.gif" alt="Black cat typing on laptop"/>
 
@@ -44,7 +38,7 @@ Building full-stack applications with React, Vite, and Node.js. Passionate about
 **💬 Ask me about**: React • Node.js • CI/CD • why automation matters
 
 **🎓 Background**: German schooling in Thessaloniki, moving to Austria for university
-</details>
+
 
 <br/>
 

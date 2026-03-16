@@ -1,40 +1,65 @@
-# Hi 👋, I'm Mel
+<!-- Galaxy Profile README Template
+     Customize this file with your own info, then rename it to README.md
+     in your GitHub profile repo (github.com/YOUR_USERNAME/YOUR_USERNAME).
+     The SVG paths below point to assets/generated/ which are auto-generated
+     by the GitHub Actions workflow or by running: python -m generator.main -->
 
-### Full Stack Developer (in the making) | Austria/Greece 🇦🇹🇬🇷
+<div align="center">
+  <img src="./assets/generated/galaxy-header.svg" width="850" alt="Galaxy Header"/>
+</div>
 
-I'm a self-taught developer who believes the best code ships itself. I build full-stack applications and then automate how they get to production.
+<br/>
 
-- 🔭 **Current project**: [Authentication User Dashboard](https://github.com/Mel000000/Authentication-User-Dashboard-App) — a secure auth system with email verification, CAPTCHA, and Google Maps integration
-- 🚀 **Recent work**: [weweb-cloudflare-ci](https://github.com/Mel000000/weweb-cloudflare-ci) — a CI/CD template that helps developers automate WeWeb deploys to Cloudflare Pages
-- 🧪 **Future project**:  End-to-end testing with Playwright
-- 🌱 **Learning**: Python • TypeScript • C++ • System Design
-- 💬 **Ask me about**: React • Node.js • CI/CD • why automation matters
-- 🎓 **Background**: German schooling in Thessaloniki, moving to Austria for university
+<div align="center">
+  <img src="./assets/generated/stats-card.svg" width="850" alt="Mission Telemetry"/>
+</div>
 
-### 📌 Pinned Projects
-Check out my pinned repos below for my best work, including a full-stack auth app and a DevOps automation tool.
+<br/>
 
-### 🤝 Let's connect
-I'm looking for a part-time Werkstudent role in Linz starting late 2026 (remote possible). If you're hiring or just want to talk code, reach out!
+<div align="center">
+  <img src="./assets/generated/tech-stack.svg" width="850" alt="Tech Stack"/>
+</div>
 
-<a href="https://dev.to/Mel000000" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="Mel000000" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/Melina Reisinger" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Melina Reisinger" height="30" width="40" /></a>
-</p>
+<br/>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="40" height="40"/>
-  <img src="https://skillicons.dev/icons?i=react" alt="React" width="40" height="40"/>
-  <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="40" height="40"/>
-  <img src="https://skillicons.dev/icons?i=express" alt="Express" width="40" height="40"/>
-  <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" width="40" height="40"/>
-  <img src="https://skillicons.dev/icons?i=git" alt="Git" width="40" height="40"/>
-  <img src="https://skillicons.dev/icons?i=githubactions" alt="GitHub Actions" width="40" height="40"/>
-  <img src="https://skillicons.dev/icons?i=cloudflare" alt="Cloudflare" width="40" height="40"/>
-  <img src="https://skillicons.dev/icons?i=py" alt="Python" width="40" height="40"/>
-  <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" width="40" height="40"/>
-  <img src="https://skillicons.dev/icons?i=html" alt="HTML5" width="40" height="40"/>
-  <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="40" height="40"/>
-  <img src="https://skillicons.dev/icons?i=blender" alt="blender" width="40" height="40"/> 
-</p>
+<div align="center">
+  <img src="./assets/generated/projects-constellation.svg" width="850" alt="Featured Projects"/>
+</div>
 
+<br/>
+
+<details>
+<summary><strong>More about me</strong></summary>
+
+<img align="right" width="300" src="https://media.tenor.com/YSzBJZA8P0cAAAAi/cat-black.gif" alt="Black cat typing on laptop"/>
+
+Building full-stack applications with React, Vite, and Node.js. Passionate about CI/CD automation and developer tooling. Self-taught developer currently leveling up in system design.
+
+**🚀 Current mission**: Authentication User Dashboard 🔨 — a secure auth system with email verification, CAPTCHA, and Google Maps integration
+
+**🎯 2026 goals**: Werkstudent role in Linz and mastering full-stack development
+
+**🧠 Currently learning**: Python • TypeScript • C++ • System Design • Playwright
+
+**💬 Ask me about**: React • Node.js • CI/CD • why automation matters
+
+**🎓 Background**: German schooling in Thessaloniki, moving to Austria for university
+</details>
+
+<br/>
+
+<br/>
+
+<div align="center">
+  <a href="mailto:melina.reisinger@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-080c14?style=for-the-badge&logo=gmail&logoColor=00d4ff" alt="Email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/melina-reisinger-093964314/">
+    <img src="https://img.shields.io/badge/-LinkedIn-080c14?style=for-the-badge&logo=linkedin&logoColor=a78bfa" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/mel000000">
+    <img src="https://img.shields.io/badge/-GitHub-080c14?style=for-the-badge&logo=github&logoColor=ffb020" alt="GitHub"/>
+  </a>
+</div>
+
+<br/>

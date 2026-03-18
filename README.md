@@ -42,7 +42,7 @@ Building full-stack applications with React, Vite, and Node.js. Passionate about
 <br/>
 
 <div align="right">
-     <img align="right" width="300" src="https://media.tenor.com/YSzBJZA8P0cAAAAi/cat-black.gif" alt="Black cat typing on laptop"/>
+     <img width="200" src="https://media.tenor.com/YSzBJZA8P0cAAAAi/cat-black.gif" alt="Black cat typing on laptop"/>
 </div>
 
 <br/>

@@ -23,8 +23,6 @@
 </div>
 
 <br/>
-
-
 Building full-stack applications with React, Vite, and Node.js. Passionate about CI/CD automation and developer tooling. Self-taught developer currently leveling up in system design.
 
 **🚀 Current mission**: Authentication User Dashboard: a secure auth system with email verification, CAPTCHA, and Google Maps integration
@@ -39,11 +37,10 @@ Building full-stack applications with React, Vite, and Node.js. Passionate about
 - Full-stack development with React/Node.js
 - Developer tooling and CI/CD automation
 - Opportunities to learn from experienced teams while contributing fresh ideas
-<br/>
 
-<div align="right">
-     <img width="200" src="https://media.tenor.com/YSzBJZA8P0cAAAAi/cat-black.gif" alt="Black cat typing on laptop"/>
-</div>
+<img align="right" width="200" src="https://media.tenor.com/YSzBJZA8P0cAAAAi/cat-black.gif" alt="Black cat typing on laptop"/>
+
+<br/>
 
 <br/>
 

@@ -25,6 +25,8 @@
 <br/>
 Building full-stack applications with React, Vite, and Node.js. Passionate about CI/CD automation and developer tooling. Self-taught developer currently leveling up in system design.
 
+<br/>
+
 **🚀 Current mission**: Authentication User Dashboard: a secure auth system with email verification, CAPTCHA, and Google Maps integration
 
 **🧠 Currently learning**: Python • TypeScript • C++ • System Design • Playwright

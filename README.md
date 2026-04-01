@@ -12,7 +12,7 @@
 
 <br/>
 
-<div align="center">
+<div align="center" href="https://mel000000.github.io/skill-radar">
   <img src="./assets/generated/tech-stack.svg" width="850" alt="Tech Stack"/>
 </div>
 
@@ -59,5 +59,3 @@ Building full-stack applications with React, Vite, and Node.js. Passionate about
 </div>
 
 <br/>
-
-[![Skill radar](./assets/skill-chart.png)](https://mel000000.github.io/skill-radar)

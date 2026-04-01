@@ -12,8 +12,10 @@
 
 <br/>
 
-<div align="center" href="https://mel000000.github.io/skill-radar">
-  <img src="./assets/generated/tech-stack.svg" width="850" alt="Tech Stack"/>
+<div align="center">
+  <a href="https://mel000000.github.io/skill-radar">
+    <img src="./assets/generated/tech-stack.svg" width="850" alt="Tech Stack"/>
+  </a>
 </div>
 
 <br/>

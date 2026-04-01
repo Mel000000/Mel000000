@@ -59,3 +59,5 @@ Building full-stack applications with React, Vite, and Node.js. Passionate about
 </div>
 
 <br/>
+
+[![Skill radar](skill-radar.png)](https://mel000000.github.io/skill-radar)

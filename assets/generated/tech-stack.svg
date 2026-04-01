@@ -11,86 +11,89 @@
   <!-- Vertical divider -->
   <line x1="425" y1="25" x2="425" y2="215" stroke="#1a2332" stroke-width="1" opacity="0.4"/>
 
-  <!-- Right: Focus Sectors -->
+  <!-- Right: Focus Sectors heading -->
   <text x="460" y="38" fill="#64748b" font-size="11" font-family="monospace" letter-spacing="3">FOCUS SECTORS</text>
 
-    <g transform="translate(30, 65)">
-      <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="sans-serif" dominant-baseline="middle">Python</text>
-      <rect x="110" y="-6" width="154.8" height="12" rx="3" fill="#3572A5" opacity="0.85">
-        <animate attributeName="width" from="0" to="45.2" dur="0.8s" begin="0.0s" fill="freeze"/>
-      </rect>
-      <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">22.6%</text>
-    </g>
-    <g transform="translate(30, 87)">
-      <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="sans-serif" dominant-baseline="middle">JavaScript</text>
-      <rect x="110" y="-6" width="45.2" height="12" rx="3" fill="#f1e05a" opacity="0.85">
-        <animate attributeName="width" from="0" to="154.8" dur="0.8s" begin="0.1s" fill="freeze"/>
-      </rect>
-      <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">77.4%</text>
-    </g>
+  <!-- Python row -->
+  <g transform="translate(30, 65)">
+    <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="sans-serif" dominant-baseline="middle">Python</text>
+    <rect x="110" y="-6" width="45.2" height="12" rx="3" fill="#3572A5" opacity="0.85">
+      <animate attributeName="width" from="0" to="45.2" dur="0.8s" begin="0.0s" fill="freeze"/>
+    </rect>
+    <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">22.6%</text>
+  </g>
 
-    <circle cx="637" cy="140" r="22" fill="none" stroke="#64748b" stroke-width="0.5" stroke-dasharray="3,3" opacity="0.25"/>
-    <circle cx="637" cy="140" r="44" fill="none" stroke="#64748b" stroke-width="0.5" stroke-dasharray="3,3" opacity="0.25"/>
-    <circle cx="637" cy="140" r="65" fill="none" stroke="#64748b" stroke-width="0.5" stroke-dasharray="3,3" opacity="0.25"/>
-    <path d="M 637 140 L 638.1 75.0 A 65 65 0 0 1 693.9 171.5 Z" fill="#a78bfa" fill-opacity="0.10" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="0.5"/>
-    <path d="M 637 140 L 692.7 173.5 A 65 65 0 0 1 581.3 173.5 Z" fill="#00d4ff" fill-opacity="0.10" stroke="#00d4ff" stroke-opacity="0.3" stroke-width="0.5"/>
-    <path d="M 637 140 L 580.1 171.5 A 65 65 0 0 1 635.9 75.0 Z" fill="#ffb020" fill-opacity="0.10" stroke="#ffb020" stroke-opacity="0.3" stroke-width="0.5"/>
-    <line x1="637" y1="140" x2="637.0" y2="75.0" stroke="#64748b" stroke-width="0.5" opacity="0.3"/>
-    <line x1="637" y1="140" x2="693.3" y2="172.5" stroke="#64748b" stroke-width="0.5" opacity="0.3"/>
-    <line x1="637" y1="140" x2="580.7" y2="172.5" stroke="#64748b" stroke-width="0.5" opacity="0.3"/>
-    <g>
-      <!-- Sweep trail -->
-      <path d="M 637 140 L 604.5 83.7 A 65 65 0 0 1 637.0 75.0 Z" fill="#00d4ff" fill-opacity="0.07"/>
-      <!-- Outer wedge -->
-      <polygon points="634.5,140 637,75 639.5,140" fill="#00d4ff" opacity="0.25"/>
-      <!-- Inner bright core -->
-      <polygon points="636.2,140 637,75 637.8,140" fill="#00d4ff" opacity="0.5"/>
-      <!-- Tip glow -->
-      <circle cx="637" cy="75" r="2" fill="#00d4ff" opacity="0.6">
-        <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <animateTransform attributeName="transform" type="rotate" from="0 637 140" to="360 637 140" dur="8s" repeatCount="indefinite"/>
-    </g>
-    <text x="708.9" y="98.5" fill="#a78bfa" font-size="9" font-family="monospace" text-anchor="start" dominant-baseline="middle">Frontend</text>
-    <text x="708.9" y="110.5" fill="#64748b" font-size="8" font-family="monospace" text-anchor="start" dominant-baseline="middle">(4)</text>
-    <text x="637.0" y="223.0" fill="#00d4ff" font-size="9" font-family="monospace" text-anchor="middle" dominant-baseline="middle">Backend</text>
-    <text x="637.0" y="235.0" fill="#64748b" font-size="8" font-family="monospace" text-anchor="middle" dominant-baseline="middle">(4)</text>
-    <text x="565.1" y="98.5" fill="#ffb020" font-size="9" font-family="monospace" text-anchor="end" dominant-baseline="middle">DevOps</text>
-    <text x="565.1" y="110.5" fill="#64748b" font-size="8" font-family="monospace" text-anchor="end" dominant-baseline="middle">(4)</text>
-    <circle cx="641.6" cy="116.4" r="3" fill="#a78bfa" opacity="0.35">
-      <animate attributeName="opacity" values="0.35;0.35;1.0;0.35;0.35" keyTimes="0;0.04;0.06;0.10;1" dur="8s" begin="7.94s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="664.6" cy="111.1" r="3" fill="#a78bfa" opacity="0.35">
-      <animate attributeName="opacity" values="0.35;0.35;1.0;0.35;0.35" keyTimes="0;0.04;0.06;0.10;1" dur="8s" begin="0.67s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="691.4" cy="126.8" r="3" fill="#a78bfa" opacity="0.35">
-      <animate attributeName="opacity" values="0.35;0.35;1.0;0.35;0.35" keyTimes="0;0.04;0.06;0.10;1" dur="8s" begin="1.40s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="659.7" cy="147.8" r="3" fill="#a78bfa" opacity="0.35">
-      <animate attributeName="opacity" values="0.35;0.35;1.0;0.35;0.35" keyTimes="0;0.04;0.06;0.10;1" dur="8s" begin="2.12s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="655.1" cy="155.7" r="3" fill="#00d4ff" opacity="0.35">
-      <animate attributeName="opacity" values="0.35;0.35;1.0;0.35;0.35" keyTimes="0;0.04;0.06;0.10;1" dur="8s" begin="2.61s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="648.2" cy="178.4" r="3" fill="#00d4ff" opacity="0.35">
-      <animate attributeName="opacity" values="0.35;0.35;1.0;0.35;0.35" keyTimes="0;0.04;0.06;0.10;1" dur="8s" begin="3.34s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="621.3" cy="193.7" r="3" fill="#00d4ff" opacity="0.35">
-      <animate attributeName="opacity" values="0.35;0.35;1.0;0.35;0.35" keyTimes="0;0.04;0.06;0.10;1" dur="8s" begin="4.06s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="618.9" cy="155.7" r="3" fill="#00d4ff" opacity="0.35">
-      <animate attributeName="opacity" values="0.35;0.35;1.0;0.35;0.35" keyTimes="0;0.04;0.06;0.10;1" dur="8s" begin="4.79s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="614.3" cy="147.8" r="3" fill="#ffb020" opacity="0.35">
-      <animate attributeName="opacity" values="0.35;0.35;1.0;0.35;0.35" keyTimes="0;0.04;0.06;0.10;1" dur="8s" begin="5.28s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="598.1" cy="130.5" r="3" fill="#ffb020" opacity="0.35">
-      <animate attributeName="opacity" values="0.35;0.35;1.0;0.35;0.35" keyTimes="0;0.04;0.06;0.10;1" dur="8s" begin="6.00s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="598.3" cy="99.5" r="3" fill="#ffb020" opacity="0.35">
-      <animate attributeName="opacity" values="0.35;0.35;1.0;0.35;0.35" keyTimes="0;0.04;0.06;0.10;1" dur="8s" begin="6.73s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="632.4" cy="116.4" r="3" fill="#ffb020" opacity="0.35">
-      <animate attributeName="opacity" values="0.35;0.35;1.0;0.35;0.35" keyTimes="0;0.04;0.06;0.10;1" dur="8s" begin="7.46s" repeatCount="indefinite"/>
-    </circle>
+  <!-- JavaScript row -->
+  <g transform="translate(30, 87)">
+    <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="sans-serif" dominant-baseline="middle">JavaScript</text>
+    <rect x="110" y="-6" width="154.8" height="12" rx="3" fill="#f1e05a" opacity="0.85">
+      <animate attributeName="width" from="0" to="154.8" dur="0.8s" begin="0.1s" fill="freeze"/>
+    </rect>
+    <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">77.4%</text>
+  </g>
+
+  <!-- ── Radar chart (center 637, 130) ── -->
+
+  <!-- Grid rings -->
+  <polygon points='637.0,111.2 649.1,115.6 655.5,126.7 653.2,139.4 643.4,147.6 630.6,147.6 620.8,139.4 618.5,126.7 624.9,115.6' fill='none' stroke='#1a2332' stroke-width='0.8' opacity='0.6'/>
+  <polygon points='637.0,92.5 661.1,101.3 673.9,123.5 669.5,148.8 649.8,165.2 624.2,165.2 604.5,148.8 600.1,123.5 612.9,101.3' fill='none' stroke='#1a2332' stroke-width='0.8' opacity='0.6'/>
+  <polygon points='637.0,73.8 673.2,86.9 692.4,120.2 685.7,158.1 656.2,182.9 617.8,182.9 588.3,158.1 581.6,120.2 600.8,86.9' fill='none' stroke='#1a2332' stroke-width='0.8' opacity='0.6'/>
+  <polygon points='637.0,55.0 685.2,72.5 710.9,117.0 702.0,167.5 662.7,200.5 611.3,200.5 572.0,167.5 563.1,117.0 588.8,72.5' fill='none' stroke='#1a2332' stroke-width='0.8' opacity='0.6'/>
+
+  <!-- Axis spokes -->
+  <line x1='637.0' y1='130.0' x2='637.0' y2='55.0'  stroke='#1a2332' stroke-width='0.8' opacity='0.5'/>
+  <line x1='637.0' y1='130.0' x2='685.2' y2='72.5'  stroke='#1a2332' stroke-width='0.8' opacity='0.5'/>
+  <line x1='637.0' y1='130.0' x2='710.9' y2='117.0' stroke='#1a2332' stroke-width='0.8' opacity='0.5'/>
+  <line x1='637.0' y1='130.0' x2='702.0' y2='167.5' stroke='#1a2332' stroke-width='0.8' opacity='0.5'/>
+  <line x1='637.0' y1='130.0' x2='662.7' y2='200.5' stroke='#1a2332' stroke-width='0.8' opacity='0.5'/>
+  <line x1='637.0' y1='130.0' x2='611.3' y2='200.5' stroke='#1a2332' stroke-width='0.8' opacity='0.5'/>
+  <line x1='637.0' y1='130.0' x2='572.0' y2='167.5' stroke='#1a2332' stroke-width='0.8' opacity='0.5'/>
+  <line x1='637.0' y1='130.0' x2='563.1' y2='117.0' stroke='#1a2332' stroke-width='0.8' opacity='0.5'/>
+  <line x1='637.0' y1='130.0' x2='588.8' y2='72.5'  stroke='#1a2332' stroke-width='0.8' opacity='0.5'/>
+
+  <!-- Expectation polygon (dashed) -->
+  <polygon points='637.0,73.8 673.2,86.9 688.7,120.9 679.2,154.4 653.7,175.8 620.3,175.8 591.5,156.3 592.7,122.2 608.1,95.5' fill='rgba(110,118,129,0.08)' stroke='#6e7681' stroke-width='1' stroke-dasharray='3,2' opacity='0.7'/>
+
+  <!-- Melina polygon -->
+  <polygon points='637.0,73.8 668.3,92.7 682.8,121.9 683.8,157.0 653.7,175.8 617.0,185.0 609.7,145.8 601.5,123.7 597.5,82.9' fill='rgba(127,119,221,0.15)' stroke='#7f77dd' stroke-width='1.5'/>
+
+  <!-- Melina dots -->
+  <circle cx='637.0' cy='73.8'  r='3' fill='#7f77dd'/>
+  <circle cx='668.3' cy='92.7'  r='3' fill='#7f77dd'/>
+  <circle cx='682.8' cy='121.9' r='3' fill='#7f77dd'/>
+  <circle cx='683.8' cy='157.0' r='3' fill='#7f77dd'/>
+  <circle cx='653.7' cy='175.8' r='3' fill='#7f77dd'/>
+  <circle cx='617.0' cy='185.0' r='3' fill='#7f77dd'/>
+  <circle cx='609.7' cy='145.8' r='3' fill='#7f77dd'/>
+  <circle cx='601.5' cy='123.7' r='3' fill='#7f77dd'/>
+  <circle cx='597.5' cy='82.9'  r='3' fill='#7f77dd'/>
+
+  <!-- Expectation dots -->
+  <circle cx='637.0' cy='73.8'  r='2' fill='#6e7681'/>
+  <circle cx='673.2' cy='86.9'  r='2' fill='#6e7681'/>
+  <circle cx='688.7' cy='120.9' r='2' fill='#6e7681'/>
+  <circle cx='679.2' cy='154.4' r='2' fill='#6e7681'/>
+  <circle cx='653.7' cy='175.8' r='2' fill='#6e7681'/>
+  <circle cx='620.3' cy='175.8' r='2' fill='#6e7681'/>
+  <circle cx='591.5' cy='156.3' r='2' fill='#6e7681'/>
+  <circle cx='592.7' cy='122.2' r='2' fill='#6e7681'/>
+  <circle cx='608.1' cy='95.5'  r='2' fill='#6e7681'/>
+
+  <!-- Axis labels -->
+  <text x='637.0' y='42.0'  fill='#64748b' font-size='8' font-family='monospace' text-anchor='middle' dominant-baseline='middle'>Frontend</text>
+  <text x='693.6' y='62.6'  fill='#64748b' font-size='8' font-family='monospace' text-anchor='start'  dominant-baseline='middle'>Backend</text>
+  <text x='723.7' y='114.7' fill='#64748b' font-size='8' font-family='monospace' text-anchor='start'  dominant-baseline='middle'>Databases</text>
+  <text x='713.2' y='174.0' fill='#64748b' font-size='8' font-family='monospace' text-anchor='start'  dominant-baseline='middle'>DevOps</text>
+  <text x='667.1' y='214.0' fill='#64748b' font-size='8' font-family='monospace' text-anchor='middle' dominant-baseline='middle'>Cloud</text>
+  <text x='606.9' y='214.0' fill='#64748b' font-size='8' font-family='monospace' text-anchor='middle' dominant-baseline='middle'>Security</text>
+  <text x='560.8' y='174.0' fill='#64748b' font-size='8' font-family='monospace' text-anchor='end'    dominant-baseline='middle'>Testing</text>
+  <text x='550.3' y='114.7' fill='#64748b' font-size='8' font-family='monospace' text-anchor='end'    dominant-baseline='middle'>Sys design</text>
+  <text x='580.4' y='62.6'  fill='#64748b' font-size='8' font-family='monospace' text-anchor='end'    dominant-baseline='middle'>Tooling</text>
+
+  <!-- Legend -->
+  <rect x='460' y='220' width='8' height='6' rx='1' fill='#7f77dd'/>
+  <text x='472' y='223' fill='#64748b' font-size='8' font-family='monospace' dominant-baseline='middle'>Current Skills</text>
+  <rect x='518' y='220' width='8' height='6' rx='1' fill='none' stroke='#6e7681' stroke-width='1' stroke-dasharray='2,1'/>
+  <text x='530' y='223' fill='#64748b' font-size='8' font-family='monospace' dominant-baseline='middle'>Skill Goals</text>
+
 </svg>

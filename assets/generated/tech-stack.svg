@@ -92,8 +92,8 @@
 
   <!-- Legend -->
   <rect x='460' y='220' width='8' height='6' rx='1' fill='#7f77dd'/>
-  <text x='472' y='223' fill='#64748b' font-size='8' font-family='monospace' dominant-baseline='middle'>Current Skills</text>
+  <text x='472' y='223' fill='#64748b' font-size='8' font-family='monospace' dominant-baseline='middle'>Skills</text>
   <rect x='518' y='220' width='8' height='6' rx='1' fill='none' stroke='#6e7681' stroke-width='1' stroke-dasharray='2,1'/>
-  <text x='530' y='223' fill='#64748b' font-size='8' font-family='monospace' dominant-baseline='middle'>Skill Goals</text>
+  <text x='530' y='223' fill='#64748b' font-size='8' font-family='monospace' dominant-baseline='middle'>Goals</text>
 
 </svg>

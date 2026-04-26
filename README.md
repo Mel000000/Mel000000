@@ -36,7 +36,7 @@ Building full-stack applications with React, Vite, and Node.js. Passionate about
 
 **🎓 Background**: German schooling in Thessaloniki, moving to Austria for university
 
-**🔍 Open to Opportunities**: I'm actively seeking a **Werkstudent role in Linz, Austria** starting in 2026. I'm particularly interested in:
+**🔍 Open to Opportunities**: I'm actively seeking a **Werkstudent role in Linz, Austria** starting in 2027. I'm particularly interested in:
 - Full-stack development with React/Node.js
 - Developer tooling and CI/CD automation
 - Opportunities to learn from experienced teams while contributing fresh ideas

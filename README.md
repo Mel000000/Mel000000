@@ -1,14 +1,6 @@
-<!-- Galaxy Profile README Template
-     Customize this file with your own info, then rename it to README.md
-     in your GitHub profile repo (github.com/YOUR_USERNAME/YOUR_USERNAME).
-     The SVG paths below point to assets/generated/ which are auto-generated
-     by the GitHub Actions workflow or by running: python -m generator.main -->
-
 <div align="center">
-  <img src="./assets/generated/galaxy-header.svg" width="850" alt="Galaxy Header"/>
+  <img src="./assets/generated/galaxy-header.svg" width="850" alt="Skillset"/>
 </div>
-
-<br/>
 
 <br/>
 
@@ -20,25 +12,34 @@
 
 <br/>
 
-<div align="center">
-  <img src="./assets/generated/projects-constellation.svg" width="850" alt="Featured Projects"/>
-</div>
-
 <br/>
 Building full-stack applications with React, Vite, and Node.js. Passionate about CI/CD automation and developer tooling. Self-taught developer currently leveling up in system design.
 <br/>
 
-**🚀 Current mission**: Authentication User Dashboard: a secure auth system with email verification, CAPTCHA, and Google Maps integration
+---
 
-**🧠 Currently learning**: Python • TypeScript • C++ • System Design • Playwright
+### 🔨 What I've built
 
-**💬 Ask me about**: React • Node.js • CI/CD • why automation matters
+**[weweb-cloudflare-ci](https://github.com/Mel000000/weweb-cloudflare-ci)**: Production CI/CD pipeline for a startup. 54-second deploys. Later open-sourced.
 
-**🎓 Background**: German schooling in Thessaloniki, moving to Austria for university
+**[weweb-dynamic-metadata](https://github.com/Mel000000/weweb-dynamic-metadata)**: npm package. Zero runtime overhead. 1,000 pages in <3 seconds.
 
-**🔍 Open to Opportunities**: I'm actively seeking a **Werkstudent role in Linz, Austria** starting in 2027. I'm particularly interested in:
+**[Authentication Dashboard](https://github.com/Mel000000/Authentication-User-Dashboard-App)**: JWT, bcrypt, reCAPTCHA. Adding Playwright tests + OpenTelemetry → Prometheus → Grafana.
+
+---
+
+### 🎯 Currently
+
+- Learning: OpenTelemetry · Prometheus · Grafana · TypeScript · C++ · Python
+- Building: Observability pipeline for my auth app (break it → see it → fix it)
+- Writing: Dev.to posts about debugging and monitoring
+
+---
+
+### 🔍 Open to Opportunities:
+I'm seeking a **Werkstudent role in Linz, Austria** starting in 2027. I'm particularly interested in:
 - Full-stack development with React/Node.js
-- Developer tooling and CI/CD automation
+- Observability, developer tooling and platform engineering
 - Opportunities to learn from experienced teams while contributing fresh ideas
 
 <br/>

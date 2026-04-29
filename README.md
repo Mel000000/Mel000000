@@ -24,7 +24,7 @@ Building full-stack applications with React, Vite, and Node.js. Passionate about
 
 **[weweb-dynamic-metadata](https://github.com/Mel000000/weweb-dynamic-metadata)**: npm package. Zero runtime overhead. 1,000 pages in <3 seconds.
 
-**[Authentication Dashboard](https://github.com/Mel000000/Authentication-User-Dashboard-App)**: JWT, bcrypt, reCAPTCHA. Adding Playwright tests + OpenTelemetry → Prometheus → Grafana.
+**[Authentication-User-Dashboard-App](https://github.com/Mel000000/Authentication-User-Dashboard-App)**: JWT, bcrypt, reCAPTCHA. Adding Playwright tests + OpenTelemetry → Prometheus → Grafana.
 
 ---
 

@@ -29,7 +29,7 @@ I build things, instrument them, break them deliberately, and watch what happens
 
 ### 🎯 Currently
 
-- **Building:** Distributed observability platform — distributed tracing across an auth service and a microservice, alerting on latency thresholds
+- **Building:** Distributed observability platform → distributed tracing across an auth service and a microservice, alerting on latency thresholds
 - **Learning:** OpenTelemetry · Prometheus · Grafana · TypeScript · C++ 
 - **Writing:** Dev.to posts on debugging, monitoring, and what the metrics actually mean
 

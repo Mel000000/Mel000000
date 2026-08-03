@@ -23,7 +23,7 @@ I build things, instrument them, break them deliberately, and watch what happens
 
 **[Authentication-User-Dashboard-App](https://github.com/Mel000000/Authentication-User-Dashboard-App)** a production-style auth system: JWT in httpOnly cookies, bcrypt, reCAPTCHA v2, email verification, Cloudinary CDN. Currently adding Playwright E2E tests with GitHub Actions CI.
 
-**[observability-platform](https://github.com/Mel000000/observability-platform)** *(in progress)* a OpenTelemetry → Prometheus → Grafana pipeline instrumented across two services. Tracks login latency, error rates, and failed auth attempts. Includes a deliberate fault injection phase: introduce a slow endpoint, watch the alert fire, observe the recovery.
+**[observability-platform](https://github.com/Mel000000/observability-platform)** *(in progress)* a OpenTelemetry → Prometheus/Tempo(Grafana)/ Loki(Grafana) → Grafana pipeline instrumented across two services. Tracks login latency, error rates, and failed auth attempts. Includes a deliberate fault injection phase: introduce a slow endpoint, watch the alert fire, observe the recovery.
 
 ---
 

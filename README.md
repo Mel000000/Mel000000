@@ -21,7 +21,7 @@ I build things, instrument them, break them deliberately, and watch what happens
 
 **[observability-platform](https://github.com/Mel000000/observability-platform)** a Docker Compose observability backend for the [Authentication User Dashboard App](https://github.com/Mel000000/Authentication-User-Dashboard-App): OpenTelemetry Collector routes metrics to Prometheus and traces to Tempo, visualized in Grafana with a live dashboard tracking RED metrics (throughput, p50/p95/p99 latency) and auth security events, logins, invalid credentials, CSRF blocks, rate-limit hits. Logs pipeline to Loki is wired up but not yet fed by the app. Next: get logs flowing end-to-end, then a deliberate fault-injection phase, introduce a slow endpoint, watch the alert fire, observe the recovery.
 
-**[weweb-cloudflare-ci](https://github.com/Mel000000/weweb-cloudflare-ci)** a production CI/CD pipeline built for a startup client. 54-second end-to-end deploys with dependency caching, rollback visibility, and full commit traceability. Later open-sourced as the first public template for WeWeb + Cloudflare Pages.
+**[weweb-cloudflare-ci](https://github.com/Mel000000/weweb-cloudflare-ci)** a production CI/CD pipeline built for a family startup. 54-second end-to-end deploys with dependency caching, rollback visibility, and full commit traceability. Later open-sourced as the first public template for WeWeb + Cloudflare Pages.
 
 **[weweb-dynamic-metadata](https://github.com/Mel000000/weweb-dynamic-metadata)** a published npm package. Build-time SEO metadata generator: zero runtime overhead, no serverless costs, 1,000 pages in under 3 seconds.
 

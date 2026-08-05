@@ -14,22 +14,31 @@
   <!-- Right: Focus Sectors heading -->
   <text x="460" y="38" fill="#64748b" font-size="11" font-family="monospace" letter-spacing="3">FOCUS SECTORS</text>
 
-  <!-- Python row -->
+  <!-- JavaScript row -->
   <g transform="translate(30, 65)">
-    <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="sans-serif" dominant-baseline="middle">Python</text>
-    <rect x="110" y="-6" width="45.2" height="12" rx="3" fill="#3572A5" opacity="0.85">
-      <animate attributeName="width" from="0" to="45.2" dur="0.8s" begin="0.0s" fill="freeze"/>
+    <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="sans-serif" dominant-baseline="middle">JavaScript</text>
+    <rect x="110" y="-6" width="116.0" height="12" rx="3" fill="#f1e05a" opacity="0.85">
+      <animate attributeName="width" from="0" to="116.0" dur="0.8s" begin="0.0s" fill="freeze"/>
     </rect>
-    <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">22.6%</text>
+    <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">58.0%</text>
   </g>
 
-  <!-- JavaScript row -->
+  <!-- TypeScript row -->
   <g transform="translate(30, 87)">
-    <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="sans-serif" dominant-baseline="middle">JavaScript</text>
-    <rect x="110" y="-6" width="154.8" height="12" rx="3" fill="#f1e05a" opacity="0.85">
-      <animate attributeName="width" from="0" to="154.8" dur="0.8s" begin="0.1s" fill="freeze"/>
+    <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="sans-serif" dominant-baseline="middle">TypeScript</text>
+    <rect x="110" y="-6" width="40.0" height="12" rx="3" fill="#3178c6" opacity="0.85">
+      <animate attributeName="width" from="0" to="40.0" dur="0.8s" begin="0.1s" fill="freeze"/>
     </rect>
-    <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">77.4%</text>
+    <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">20.0%</text>
+  </g>
+
+  <!-- YAML / IaC row -->
+  <g transform="translate(30, 109)">
+    <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="sans-serif" dominant-baseline="middle">YAML / IaC</text>
+    <rect x="110" y="-6" width="44.0" height="12" rx="3" fill="#cb171e" opacity="0.85">
+      <animate attributeName="width" from="0" to="44.0" dur="0.8s" begin="0.2s" fill="freeze"/>
+    </rect>
+    <text x="320" y="0" fill="#64748b" font-size="10" font-family="monospace" dominant-baseline="middle">22.0%</text>
   </g>
 
   <!-- ── Radar chart (center 637, 130) ── -->
@@ -54,18 +63,18 @@
   <!-- Expectation polygon (dashed) -->
   <polygon points='637.0,73.8 673.2,86.9 688.7,120.9 679.2,154.4 653.7,175.8 620.3,175.8 591.5,156.3 592.7,122.2 608.1,95.5' fill='rgba(110,118,129,0.08)' stroke='#6e7681' stroke-width='1' stroke-dasharray='3,2' opacity='0.7'/>
 
-  <!-- Melina polygon -->
-  <polygon points='637.0,73.8 668.3,92.7 682.8,121.9 683.8,157.0 653.7,175.8 617.0,185.0 609.7,145.8 601.5,123.7 597.5,82.9' fill='rgba(127,119,221,0.15)' stroke='#7f77dd' stroke-width='1.5'/>
+  <!-- Melina polygon (DevOps + Sys design bumped up to reflect the observability stack) -->
+  <polygon points='637.0,73.8 668.3,92.7 682.8,121.9 692.3,161.9 653.7,175.8 617.0,185.0 609.7,145.8 591.2,121.9 597.5,82.9' fill='rgba(127,119,221,0.15)' stroke='#7f77dd' stroke-width='1.5'/>
 
   <!-- Melina dots -->
   <circle cx='637.0' cy='73.8'  r='3' fill='#7f77dd'/>
   <circle cx='668.3' cy='92.7'  r='3' fill='#7f77dd'/>
   <circle cx='682.8' cy='121.9' r='3' fill='#7f77dd'/>
-  <circle cx='683.8' cy='157.0' r='3' fill='#7f77dd'/>
+  <circle cx='692.3' cy='161.9' r='3' fill='#7f77dd'/>
   <circle cx='653.7' cy='175.8' r='3' fill='#7f77dd'/>
   <circle cx='617.0' cy='185.0' r='3' fill='#7f77dd'/>
   <circle cx='609.7' cy='145.8' r='3' fill='#7f77dd'/>
-  <circle cx='601.5' cy='123.7' r='3' fill='#7f77dd'/>
+  <circle cx='591.2' cy='121.9' r='3' fill='#7f77dd'/>
   <circle cx='597.5' cy='82.9'  r='3' fill='#7f77dd'/>
 
   <!-- Expectation dots -->

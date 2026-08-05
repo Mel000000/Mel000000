@@ -17,19 +17,18 @@ I build things, instrument them, break them deliberately, and watch what happens
 
 ### 🔨 What I've built
 
+**[Authentication-User-Dashboard-App](https://github.com/Mel000000/Authentication-User-Dashboard-App)** a production-style auth system, [live on Render](https://authentication-user-dashboard-app.onrender.com): JWT in httpOnly cookies, bcrypt, reCAPTCHA v2, email verification, Cloudinary CDN, double-submit CSRF protection, Redis-backed rate limiting, and Zod input validation. Covered by Playwright E2E tests running in GitHub Actions CI.
+
+**[observability-platform](https://github.com/Mel000000/observability-platform)** a Docker Compose observability backend for the [Authentication User Dashboard App](https://github.com/Mel000000/Authentication-User-Dashboard-App): OpenTelemetry Collector routes metrics to Prometheus and traces to Tempo, visualized in Grafana with a live dashboard tracking RED metrics (throughput, p50/p95/p99 latency) and auth security events, logins, invalid credentials, CSRF blocks, rate-limit hits. Logs pipeline to Loki is wired up but not yet fed by the app. Next: get logs flowing end-to-end, then a deliberate fault-injection phase, introduce a slow endpoint, watch the alert fire, observe the recovery.
+
 **[weweb-cloudflare-ci](https://github.com/Mel000000/weweb-cloudflare-ci)** a production CI/CD pipeline built for a startup client. 54-second end-to-end deploys with dependency caching, rollback visibility, and full commit traceability. Later open-sourced as the first public template for WeWeb + Cloudflare Pages.
 
 **[weweb-dynamic-metadata](https://github.com/Mel000000/weweb-dynamic-metadata)** a published npm package. Build-time SEO metadata generator: zero runtime overhead, no serverless costs, 1,000 pages in under 3 seconds.
-
-**[Authentication-User-Dashboard-App](https://github.com/Mel000000/Authentication-User-Dashboard-App)** a production-style auth system: JWT in httpOnly cookies, bcrypt, reCAPTCHA v2, email verification, Cloudinary CDN. Currently adding Playwright E2E tests with GitHub Actions CI.
-
-**[observability-platform](https://github.com/Mel000000/observability-platform)** *(in progress)* a OpenTelemetry → Prometheus/Tempo(Grafana)/ Loki(Grafana) → Grafana pipeline instrumented across two services. Tracks login latency, error rates, and failed auth attempts. Includes a deliberate fault injection phase: introduce a slow endpoint, watch the alert fire, observe the recovery.
-
 ---
 
 ### 🎯 Currently
 
-- **Building:** Distributed observability platform → distributed tracing across an auth service and a microservice, alerting on latency thresholds
+- **Building:** Wiring application logs into the observability stack, then a deliberate fault-injection phase to test alerting end-to-end
 - **Learning:** OpenTelemetry · Prometheus · Grafana · TypeScript · C++ 
 - **Writing:** Dev.to posts on debugging, monitoring, and what the metrics actually mean
 
@@ -46,6 +45,7 @@ Particularly interested in:
 
 <br/>
 <br/>
+
 <div align="center">
   <a href="mailto:melina.reisinger07@gmail.com">
     <img src="https://img.shields.io/badge/-Email-080c14?style=for-the-badge&logo=gmail&logoColor=00d4ff" alt="Email"/>
